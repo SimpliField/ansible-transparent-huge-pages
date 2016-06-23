@@ -1,0 +1,21 @@
+galaxy_info:
+  author: Sébastien Elet
+  description: Disable transparent huge pages
+  company: SimpliField
+  license: BSD
+  min_ansible_version: 2
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - utopic
+    - vivid
+    - wily
+    - xenial
+  galaxy_tags:
+  - mongo
+  - mongodb
+  - database
+  - system
+
+dependencies: []

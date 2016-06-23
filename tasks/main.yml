@@ -1,0 +1,16 @@
+---
+- name: disables transparent-huge-pages
+  copy:
+    src: disable-transparent-hugepages
+    dest: "/etc/init.d/disable-transparent-hugepages"
+    mode: 0755
+  tags:
+  - mongo
+
+- name: run service disable transparent hugepages
+  service:
+    name: disable-transparent-hugepages
+    state: started
+    enabled: yes
+  tags:
+  - mongo
