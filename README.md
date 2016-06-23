@@ -1,4 +1,4 @@
-Disable transparent huge pages
+Disable transparent huge pages [![Build Status](https://travis-ci.org/SimpliField/ansible-transparent-huge-pages.svg?branch=master)](https://travis-ci.org/SimpliField/ansible-transparent-huge-pages) [![Ansible Role](https://img.shields.io/ansible/role/10479.svg?maxAge=2592000)](https://galaxy.ansible.com/SimpliField/tranparent-huge-pages/)
 =========
 
 Disable transparent huge pages
