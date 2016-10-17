@@ -22,6 +22,8 @@ install:
 script:
   # Basic role syntax check
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
+  # Run the role/playbook with ansible-playbook in check-mode
+  - ansible-playbook -i tests/inventory tests/test.yml --connection=local --sudo --check
   # Run the role/playbook with ansible-playbook.
   - ansible-playbook -i tests/inventory tests/test.yml --connection=local --sudo
   # Run the role/playbook again, checking to make sure it's idempotent.
