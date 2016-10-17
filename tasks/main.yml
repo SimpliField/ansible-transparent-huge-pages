@@ -12,5 +12,6 @@
     name: disable-transparent-hugepages
     state: started
     enabled: yes
+  when: not ansible_check_mode
   tags:
   - mongo
