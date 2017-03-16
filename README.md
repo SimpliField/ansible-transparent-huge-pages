@@ -27,7 +27,7 @@ Example Playbook
 ```yaml
 - hosts: servers
   roles:
-  - { role: SimpliField.tranparent-huge-pages }
+  - { role: SimpliField.transparent-huge-pages }
 ```
 
 License
